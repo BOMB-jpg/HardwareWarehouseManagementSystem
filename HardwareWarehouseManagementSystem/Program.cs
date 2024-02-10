@@ -10,7 +10,7 @@ namespace HardwareWarehouseManagementSystem
         static void Main(string[] args)
         {
             CustomQueue<HardwareItem> hardwareItemQueue = new CustomQueue<HardwareItem>();
-
+      //委托的一部分
             hardwareItemQueue.CustomQueueEvent += CustomQueue_CustomQueueEvent;
             System.Threading.Thread.Sleep(2000);
 
